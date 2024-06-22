@@ -43,7 +43,7 @@ function limparCampo (){
 }
 
 function gerarNumeroAleatorio() {
-    let numeroEscolhido = parseInt(Math.random() * numeroLimite + 1);
+    let numeroEscolhido = parseInt(Math.random() * numeroLimite) + 1;
     let quantindadeElementosNaLista = listaDeNumerosSorteados.length;
 
     if (quantindadeElementosNaLista == numeroLimite) {
